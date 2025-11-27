@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="portifolio" content="width=device-width, initial-scale=1.0">
+    <title>portifolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Zalando+Sans+SemiExpanded:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Tangerine" />
+    <link rel="stylesheet" href="/css/css01.css">
+    <link rel="stylesheet" href="/css/var.css">
+</head>
+
+<body>
+    <div class="header_princ">
+        <header>
+            <div class="first_container_header">
+                <nav class="navigation">
+                    <div class="header_c_bot">
+                        <div class="input_c">
+                            <input id="barra" onfocus="cleann()" placeholder="...search" value="pesquisa aqui">
+                            <button id="bot_c" onclick="srch()">
+                                <a><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </button>
+                        </div>
+                        <p id="textinput"></p>
+                    </div>
+                    <div class="c_menuheader">
+                        <div class="menuheader">
+                            <ul class="header_list">
+                                <li><a href="" class="headers_link"> Inicio</a></li>
+                                <li><a href="" class="headers_link"> Serviços</a></li>
+                                <li><a href="" class="headers_link"> Integridade</a></li>
+                                <li><a href="" class="headers_link"> Infirnação</a></li>
+                                <li><a href="" class="headers_link"> Contatos</a></li>
+                                <li><a href="" class="headers_link"> Sobre</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <div class="buttommenu">
+                    <button id="buttomheader">
+                        <a id="menu"><i class="fa-solid fa-bars"></i></a>
+                    </button>
+                </div>
+                </nav>
+            </div>
+        </header>
+    </div>
+
+
+    <div class="bodypajlan">
+
+        <!-- MAIN -->
+        <div class="sob_main_princ">
+            <div class="main_princ">
+                <aside class="aside_E">
+                    <div class="c_aside_E">
+                        <div class="faixabutasideE1">
+                            <div class="c_faixabutasideE1">
+                                <div class="c_but">
+                                    <button class="but0" onclick="motraseA()">
+                                        <h1 id="mobton">Look at description</h1>
+                                    </button>
+                                </div>
+
+                                <div class="c_but">
+                                    <button class="but2">
+                                        <h1 id="mobton" onclick="motraseC()">Current Job</h1>
+                                    </button>
+                                </div>
+
+                                <div class="c_but">
+                                    <button class="but1" onclick="motraseB()">
+                                        <h1 id="mobton">Change the background</h1>
+                                    </button>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </aside>
+
+                <main>
+                    <div class="divimain">
+                        <div class="divicont">
+                            <div class="sub_fcm">
+                                <p id="sub_fcmp1">“Sou programador em atividade”</p>
+                                <h1 id="title_h1">Eu sou Desenvolvedor
+                                    <br>aqui é meu Portfolio
+                                </h1>
+                                <p id="sub_fcmp2">“De acordo”</p>
+                            </div>
+                            <div>
+                                <img class="sub_fcm_ft" src="../ft/john.png">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="divimain">
+                        <div class="fundo_first_title">
+                            <h1 id="title_h1"> Profissional competente </h1>
+                        </div>
+                    </div>
+
+                    <div class="divimain">
+                        <div class="divicont">
+                            <video id="fndo_vid" src="../vid/PwerP.mp4" controls autoplay muted></video>
+                        </div>
+                    </div>
+
+                    <div class="divimain">
+                        <div class="divicont">
+                            <div class="sub_scm_ft">
+                                <img id="scm_ft" width="500px" src="../ft/pc.png">
+                            </div>
+                            <div class="sub_fcm_hpp">
+                                <h1 id="titleparag"> Montagem de PC Gamer</h1>
+                                <p id="paragmain"><br>
+                                    “Na maioria das vezes nos precisamos entregar um trabalho o mais rápido possível
+                                    e não conseguimos porque o equipamento que estamos usando não atende as nossas
+                                    demandas”.<br>
+                                    “Esse tipo de problema me criou, Agora estou aqui”.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="divimain">
+                        <div class="divicont">
+                            <div class="sub_scm_hpp">
+                                <h1 id="titleparag">Manutenção em geral</h1>
+                                <p id="paragmain"><br>
+                                    “Tenho bastante experiencia com manuteção de qualquer computador DeskTop ou LapTop
+                                    como
+                                    notebook e tablet, ja trabalhei para muitos clientes <br>
+                                    que amam o jeito que trabalho e deixou bem
+                                    claro nas redes sociais”.</p>
+                            </div>
+                            <div class="sub_tcm_vid">
+                                <video id="tcm_vid" src="../vid/eunaloja.mp4" controls autoplay muted></video>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="divimain">
+                        <div class="divicont">
+                            <div class="sub_fcm_vid">
+                                <video id="fcm_vid" src="../vid/Man notebook.mp4" controls autoplay muted></video>
+                            </div>
+                            <div class="sub_tcm_hpp">
+                                <h1 id="titleparag">Conserto de Notebook</h1>
+                                <p id="paragmain"><br>
+                                    “O conserto de notebook é um serviço especializado para diagnosticar e corrigir
+                                    falhas de hardware e software. Problemas comuns incluem lentidão, superaquecimento,
+                                    falhas na bateria e tela, além de danos causados por vírus. A manutenção pode ser
+                                    corretiva, para resolver um problema já existente, ou preventiva, como a limpeza
+                                    interna, para evitar futuras falhas.”
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="divimain">
+                        <div class="divicont">
+                            <div class="sub_tcm_hpp">
+                                <h1 id="titleparag">Conhecimento em Modelagem</h1>
+                                <p id="paragmain"><br>
+                                    “Aprendi a manipular as ferramentas de Modelagem e escultura, criei esta animção 3D
+                                    porque vi em uma plataforma e gostei muito, desde entao quis reproduzir, foi
+                                    perfeito cada mm dessa animacao acabei criando outros e me acostumando com alguns
+                                    programs”
+                                </p>
+                            </div>
+                            <div class="sub_fcm_vid">
+                                <video id="fcm_vid" src="../vid/3D.mp4" controls autoplay muted></video>
+                            </div>
+                        </div>
+                    </div>
+
+                </main>
+
+                <aside id="aside_R" class="oculto">
+
+                    <div class="c_aside_R">
+                        <div class="aside_hpp">
+                            <div>
+                                <h1 id="title_h1_aside"></h1>
+                            </div>
+                            <div>
+                                <p id="parag_aside"></p>
+                            </div>
+                        </div>
+                    </div>
+
+                </aside>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+
+    </div>
+
+    <div class="footerpajlan">
+        <footer>
+            <div class="first_container_footer">
+                <div class="footer_nav">
+                    <ul class="nav_menu">
+                        <h1 class="title_footer">Resources</h1>
+                        <li><a href="" class="foote_link">Usage</a></li>
+                        <li><a href="" class="foote_link">Docs</a></li>
+                        <li><a href="" class="foote_link">Suport</a></li>
+                        <li><a href="" class="foote_link">Hardwares</a></li>
+                    </ul>
+                    <ul class="nav_menu">
+                        <h1 class="title_footer">Pricing</h1>
+                        <li><a href="" class="foote_link">Overview</a></li>
+                        <li><a href="" class="foote_link">Flexible Data</a></li>
+                        <li><a href="" class="foote_link">High Volume</a></li>
+                        <li><a href="" class="foote_link">Enterprise</a></li>
+                    </ul>
+                    <ul class="nav_menu">
+                        <h1 class="title_footer">Developers</h1>
+                        <li><a href="" class="foote_link">Forum</a></li>
+                        <li><a href="" class="foote_link">Projects</a></li>
+                        <li><a href="" class="foote_link">Open Source</a></li>
+                        <li><a href="" class="foote_link">GitHub</a></li>
+                    </ul>
+                    <ul class="nav_menu">
+                        <h1 class="title_footer">Company</h1>
+                        <li><a href="" class="foote_link">About Us</a></li>
+                        <li><a href="" class="foote_link">Blog</a></li>
+                        <li><a href="" class="foote_link">Patnerships</a></li>
+                        <li><a href="" class="foote_link">Careers</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav_social">
+                    <div id="footer_copyright">&#169
+                        2025 all rights reseved Dev_John
+                    </div>
+                    <div class="medias">
+                        <ul class="media_social">
+                            <a href="https://www.instagram.com/josservicodeinformatic/" class="media_link"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/john-orly/" class="media_link"><i
+                                    class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://www.facebook.com/JOSSERVICOSDEINF" class="media_link"><i
+                                    class="fa-brands fa-facebook-f"></i></a>
+                            <a href="" class="media_link"><i class="fa-brands fa-whatsapp"></i></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <div class="faixaanimation">
+        <div id="animat">
+            <a href="https://api.whatsapp.com/send?phone=5561995798543&text=Ola!%20Quero%20um%20or%C3%A7amento.">
+                <a href="" class="media_link"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+        <div class="divparagrafo">
+            <p id="C_divparagrafo">Liga Aqui</p>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="../javascript/javasc.js"></script>
+    <script src="../javascript/vanime.js"></script>
+</body>
+
+</html>
