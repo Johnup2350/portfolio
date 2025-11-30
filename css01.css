@@ -19,7 +19,7 @@ header,
 }
 
 body {
-  background-color: var(--Cor-white);
+  background-color: var(--Cor-black);
 }
 
 .bodypajlan {
@@ -359,7 +359,7 @@ button {
 }
 
 main {
-  background-color: var(--Cor-blackPal);
+  background-color: var(--Cor-black);
   width: 1000px;
   gap: 10px;
   padding: 0px 0px 80px 0px;
@@ -634,4 +634,19 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+@media screen and (max-width: 1080px){
+  .aside_E{
+    visibility: hidden;
+  }  
+}
+@media screen and (max-width: 1080px){
+  .c_aside_R{
+    visibility: hidden;
+  }  
+}
+@media screen and (max-width: 1080px){
+  .divicont{
+    flex-direction: column;
+  }  
 }
