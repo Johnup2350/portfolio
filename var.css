@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
 :root {
     --Cor-red: red;
     --Cor-rosybrown: rosybrown;
@@ -75,16 +76,16 @@
 }
 
 @font-face {
-    font-family: '$font4';
-    src: url(/html/ARIALLGT.TTF);
+    font-family: 'agora';
+
 }
 
 @font-face {
     font-family: '$font5';
-    src: url(/html/ARIAL.TTF);
+
 }
 
 @font-face {
     font-family: '$font6';
-    src: url(/html/KodeMono-Bold.ttf);
+    src: url();
 }
