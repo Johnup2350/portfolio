@@ -1,4 +1,4 @@
-alert('Este é um potifolio e projeto em desenvolvimento pelo Dev John-orly');
+alert('Este é um potifolio, Projeto em desenvolvimento pelo Dev John-orly');
 
 function motraseA() {
     const aside = document.getElementById("aside_R");
