@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
 var menu = document.querySelector('#menu');
 var menuheader = document.querySelector('.menuheader');
 
-menu.addEventListener("click", function () {
+menu.addEventListener("mouseover", function () {
     if (menuheader.style.display === 'block') {
         menuheader.style.display = 'none';
     } else {
