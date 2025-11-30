@@ -63,7 +63,7 @@ body {
 }
 
 header {
-  background-color: var(--Cor-blackPal);
+  background-color: var(--Cor-transparent);
   border-bottom: 0.2px solid var(--Cor-white);
   width: 100%;
   height: 100%;
@@ -74,7 +74,7 @@ header {
 
 .first_container_header {
   background-color: var(--Cor-transparent);
-  width: 1500px;
+  width: 1000px;
   height: 93px;
   display: flex;
   flex-direction: row;
@@ -365,6 +365,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: auto;
 }
 
 .divicont {
@@ -670,6 +671,10 @@ footer {
   .divicont1 {
     height: 100%;
     flex-direction: column;
-    background-color: red;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .first_container_header {
+    width: 1000px;
   }
 }
