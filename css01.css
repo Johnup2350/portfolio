@@ -36,7 +36,7 @@ a {
 }
 
 body {
-  width: 100%;
+  width: 100vw;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -358,14 +358,15 @@ button {
 }
 
 main {
-  background-color: var(--Cor-black);
+  background-color: var(--Cor-transparent);
+  margin-top: 5px;
   width: 1000px;
-  gap: 50px;
+  height: 100%;
+  gap: 30px;
   padding: 0px 0px 80px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  overflow: auto;
 }
 
 .divicont {
@@ -658,7 +659,22 @@ footer {
 }
 @media screen and (max-width: 1080px) {
   .aside_E {
-    visibility: hidden;
+    display: none;
+  }
+}
+@media screen and (max-width: 1080px) {
+  #aside_R {
+    display: none;
+  }
+}
+@media screen and (max-width: 1080px) {
+  main {
+    width: 1080px;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .divimain {
+    height: 100%;
   }
 }
 @media screen and (max-width: 1080px) {
@@ -676,5 +692,14 @@ footer {
 @media screen and (max-width: 1080px) {
   .first_container_header {
     width: 1000px;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .fundo_first_title {
+    width: 100%;
+    height: 560;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
