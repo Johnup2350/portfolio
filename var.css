@@ -1,0 +1,90 @@
+:root {
+    --Cor-red: red;
+    --Cor-rosybrown: rosybrown;
+    --Cor-royalblue: royalblue;
+    --Cor-rebeccapurple: rebeccapurple;
+    --Cor-verdeWhatsApp: #25D366;
+    --Cor-verde: #27581c;
+    --Cor-TextCinza: #888586;
+    --Cor-violetfonse: #471e50;
+    --Cor-verdefraca: #badbc6;
+    --Cor-white: white;
+    --Cor-blue: blue;
+    --Cor-black: black;
+    --Cor-blackPal: #3d2b1f;
+    --Cor-cinzamedio: #575757;
+    --Cor-transparent: transparent;
+}
+
+@keyframes fadeA {
+    0% {
+        opacity: 0;
+        transform: translate(-10px) scale(0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0px) scale(1);
+    }
+}
+
+@keyframes fadeB {
+    0% {
+        opacity: 0;
+        transform: translate(-40px) scale(0.5);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0px) scale(1);
+    }
+}
+
+@keyframes directRA {
+    0% {
+        transform: translate(-100px);
+    }
+
+    100% {
+        transform: translate(0px);
+    }
+}
+
+@keyframes directRB {
+    0% {
+        transform: translate(-100px);
+        animation-delay: 2s;
+    }
+
+    100% {
+        transform: translate(0px);
+        animation-delay: 2s;
+    }
+}
+
+@keyframes zumA {
+    0% {
+        scale: 1;
+    }
+    50% {
+        scale: 1.2;
+    }
+    100% {
+        scale: 1;
+    }
+}
+
+@font-face {
+    font-family: '$font4';
+    src: url(/html/ARIALLGT.TTF);
+}
+
+@font-face {
+    font-family: '$font5';
+    src: url(/html/ARIAL.TTF);
+}
+
+@font-face {
+    font-family: '$font6';
+    src: url(/html/KodeMono-Bold.ttf);
+}
