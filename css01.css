@@ -396,7 +396,7 @@ main {
 }
 
 .fundo_first_title {
-  background-image: url(/room.png);
+  background-image: url(room.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
