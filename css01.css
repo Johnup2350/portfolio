@@ -23,11 +23,7 @@ body {
 }
 
 .bodypajlan {
-  background-color: var(--Cor-transparent);
-}
-
-.sob_main_princ {
-  background-color: var(--Cor-transparent);
+  background-color: var(--Cor-red);
 }
 
 a {
@@ -44,36 +40,18 @@ body {
   align-items: center;
 }
 
-.bodypajlan {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.header_princ {
-  background-color: var(--Cor-transparent);
+.header {
+  background-color: var(--Cor-blackPal);
+  border-bottom: 0.2px solid var(--Cor-white);
   width: 100%;
   height: 100px;
   display: flex;
-  justify-content: center;
   align-items: center;
-}
-
-header {
-  background-color: var(--Cor-transparent);
-  border-bottom: 0.2px solid var(--Cor-white);
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: end;
   justify-content: center;
 }
 
 .first_container_header {
-  background-color: var(--Cor-transparent);
+  background-color: var(--Cor-yellow);
   width: 1000px;
   height: 93px;
   display: flex;
@@ -177,105 +155,12 @@ c_menuheader {
   color: var(--Cor-black);
 }
 
-.sob_main_princ {
-  width: 95%;
-  padding: 1px;
-  display: flex;
-  justify-content: center;
-}
-
-.main_princ {
-  background-color: transparent;
-  width: 90%;
-  gap: 2px;
-  padding: 1px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-content: center;
-}
-
-#aside_R {
-  background-color: var(--Cor-cinzamedio);
-  width: 400px;
-  padding: 1px;
-  justify-content: center;
-  animation: directRA 1.5s;
-}
-
-.c_aside_R {
-  background-color: var(--Cor-transparent);
-  width: 100%;
-  height: 100%;
-  gap: 5px;
-  padding: 1px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.aside_hpp {
-  background-color: var(--Cor-transparent);
-  width: 100%;
-  padding: 40px 10px 2px 10px;
-  gap: 1px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  animation: directRB 2.5s;
-}
-
-.oculto {
-  visibility: hidden;
-}
-
-.aside_E {
-  background-color: var(--Cor-blackPal);
-  width: 210px;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: end;
-}
-
-.c_aside_E {
-  background-color: var(--Cor-transparent);
-  width: 200px;
-  height: 100%;
-  padding: 1px;
-  display: flex;
-  flex-direction: column;
-  align-items: end;
-}
-
 .c_but {
   background-color: var(--Cor-black);
   width: 180px;
   padding: 5px;
   border-radius: 5px;
   display: flex;
-  align-items: center;
-}
-
-.faixabutasideE1 {
-  background-color: var(--Cor-blackPal);
-  width: 100%;
-  height: 300px;
-  padding: 1px;
-  gap: 5px;
-  display: flex;
-  flex-direction: column;
-  align-items: end;
-}
-
-.c_faixabutasideE1 {
-  background-color: var(--Cor-transparent);
-  width: 200px;
-  height: 100%;
-  gap: 5px;
-  padding: 20px 0px 0px 0px;
-  display: flex;
-  flex-direction: column;
   align-items: center;
 }
 
@@ -330,58 +215,68 @@ button {
   border: none;
 }
 
-.c_title_h1_aside {
-  background-color: var(--Cor-blackPal);
+.main {
+  background-color: transparent;
   width: 100%;
-  height: 50px;
-  border-radius: 15px;
-  padding: 5px;
-  display: flex;
-  align-items: center;
-}
-
-#title_h1_aside {
-  color: var(--Cor-white);
-  font-family: "Arial", Helvetica, sans-serif;
-  padding: 5px;
-  font-size: 2rem;
-}
-
-#parag_aside {
-  background-color: var(--Cor-transparent);
-  color: var(--Cor-white);
-  font-family: Arial, "Helvetica", sans-serif;
-  font-size: 1rem;
-  padding: 5px;
-  text-align: justify;
-  letter-spacing: 0px;
-}
-
-main {
-  background-color: var(--Cor-transparent);
-  margin-top: 5px;
-  width: 1000px;
   height: 100%;
-  gap: 30px;
-  padding: 0px 0px 80px 0px;
+  padding: 1px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.mainprinc {
+  background-color: transparent;
+  width: 1080px;
+  gap: 20px;
+  padding: 1px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
-.divicont {
-  background-color: var(--Cor-black);
+.linha1,
+.linha2,
+.linha3 {
+  background-color: var(--Cor-transparent);
+  width: 100%;
+  height: 680px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.linha4,
+.linha5,
+.linha6,
+.linha7 {
+  background-color: var(--Cor-transparent);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.celula1,
+.celula3 {
+  background-color: var(--Cor-transparent);
   width: 100%;
   height: 600px;
   gap: 5px;
-  padding: 20px;
+  padding: 10px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
-.divicont1 {
-  background-color: var(--Cor-black);
+
+.celulab4,
+.celulab5,
+.celulab6,
+.celulab7 {
+  background-color: var(--Cor-transparent);
   width: 100%;
   height: 600px;
   gap: 5px;
@@ -420,25 +315,6 @@ main {
   align-items: center;
 }
 
-.divimain {
-  background-color: var(--Cor-transparent);
-  width: 100%;
-  height: 560px;
-  padding: 0px 0px 0px 0px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.divimain1 {
-  background-color: var(--Cor-transparent);
-  width: 100%;
-  height: 560px;
-  padding: 0px 0px 0px 0px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .sub_fcm {
   background-color: var(--Cor-transparent);
   width: 100%;
@@ -454,10 +330,10 @@ main {
 #tcm_vid,
 .sub_scm_ft,
 #fcm_vid {
-  background-color: var(--Cor-transparent);
+  background-color: var(--Cor- transparent);
 }
 
-#tcm_vid {
+  {
   width: 480px;
   height: 100%;
   padding: 2px;
@@ -484,30 +360,16 @@ main {
   padding: 2px;
 }
 
-.sub_fcm_hpp,
-.sub_scm_hpp,
-.sub_tcm_hpp {
+.celulahpp {
   background-color: var(--Cor-transparent);
   width: 500px;
   height: 100%;
-  padding: 5px;
-  gap: 5px;
+  padding: 1px;
+  gap: 2px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.sub_fcm_hpp {
-  padding: 0px;
-}
-
-.sub_scm_hpp {
-  padding: 0px;
-}
-
-.sub_tcm_hpp {
-  padding: 0px;
 }
 
 #paragmain {
@@ -517,8 +379,9 @@ main {
   font-size: 1.4rem;
   width: 100%;
   height: 300px;
-  padding: 10px;
+  padding: 5px;
   text-align: justify;
+  overflow: auto;
 }
 
 #title_h1 {
@@ -533,7 +396,7 @@ main {
   color: var(--Cor-white);
   font-family: "Arial", Helvetica, sans-serif;
   font-size: 2.8rem;
-  padding: 10px 10px 10px 10px;
+  padding: 2px 2px 2px 2px;
 }
 
 .footerpajlan {
@@ -606,9 +469,9 @@ footer {
   width: 1000px;
   height: 70px;
   display: flex;
-  justify-content: space-around;
   align-items: center;
   padding: 30px 0px 0px 0px;
+  justify-content: space-around;
 }
 
 #footer_copyright {
@@ -647,6 +510,7 @@ footer {
   align-items: center;
   justify-content: center;
 }
+
 .media_linkz {
   background-color: #25d366;
   width: 60px;
@@ -657,43 +521,65 @@ footer {
   align-items: center;
   justify-content: center;
 }
+
 @media screen and (max-width: 1080px) {
-  .aside_E {
-    display: none;
-  }
-}
-@media screen and (max-width: 1080px) {
-  #aside_R {
-    display: none;
-  }
-}
-@media screen and (max-width: 1080px) {
-  main {
+  .mainprinc {
     width: 1080px;
-  }
-}
-@media screen and (max-width: 1080px) {
-  .divimain {
-    height: 100%;
-  }
-}
-@media screen and (max-width: 1080px) {
-  .divimain1 {
-    height: 100%;
   }
 }
 
 @media screen and (max-width: 1080px) {
-  .divicont1 {
+
+  .linha4,
+  .linha5,
+  .linha6,
+  .linha7 {
+    height: 1075px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+
+  .celulab4,
+  .celulab5,
+  .celulab6,
+  .celulab7 {
     height: 100%;
+    padding: 5px;
     flex-direction: column;
   }
 }
+
 @media screen and (max-width: 1080px) {
   .first_container_header {
-    width: 1000px;
+    width: 960px;
   }
 }
+
+@media screen and (max-width: 1080px) {
+  .celulahpp {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .mainprinc {
+    gap: 0px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  #titleparag {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .nav_social {
+    width: 700px;
+  }
+}
+
 @media screen and (max-width: 1080px) {
   .fundo_first_title {
     width: 100%;
